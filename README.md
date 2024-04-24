@@ -1,7 +1,28 @@
-This is a relativly simple website cloner/static site generator, the main insperation of this project was to create a modern version of httrack
+Static Site Generator
 
-to use this run "npm i"
-relpace "http://127.0.0.1:5500" with your target site url
-then run "node index.js"
+A modern, Node.js-powered website cloner and static site generator
 
-the files will be copied to the static directory
+Introduction
+
+Crawls and saves all website pages, including HTML.
+Downloads and links assets (CSS, JavaScript, images, etc.) for offline use.
+Uses Puppeteer for dynamic content and modern website handling.
+
+Installation
+
+Prerequisites:
+Node.js and npm (or yarn)
+Install dependencies with:
+npm install
+
+Usage
+
+Replace the sample URL:
+In index.js, change "http://127.0.0.1:5500" to the actual URL of the website you want to clone.
+Run the script with:
+node index.js
+
+
+Offline access:
+Your static website will be available in the static directory. Open index.html in any browser to view it offline.
+Optional Sections
